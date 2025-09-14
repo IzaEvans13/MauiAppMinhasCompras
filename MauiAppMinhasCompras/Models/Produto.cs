@@ -5,6 +5,7 @@ namespace MauiAppMinhasCompras.Models
     public class Produto
     {
         string _descricao;
+        string _categoria;
 
 
         [PrimaryKey, AutoIncrement]
@@ -25,6 +26,7 @@ namespace MauiAppMinhasCompras.Models
         public double Quantidade { get; set; }
         public double Preco { get; set; }
         public double Total { get => Quantidade * Preco; }
+        public string Categoria { get; set; }
         
     }
 }
