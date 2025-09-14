@@ -91,7 +91,7 @@ public partial class ListaProduto : ContentPage
         }
     }
 
-    // Lógica para o botão "Somar" (renomeado para "Relatório" na minha sugestão anterior).
+    // Lógica para o botão "Somar" (renomeado para "Relatório" numa sugestão da IA para facilitar as coisas).
     private async void ToolbarItem_Clicked_1(object sender, EventArgs e)
     {
         // Lógica do relatório para somar por categoria.
@@ -162,7 +162,7 @@ public partial class ListaProduto : ContentPage
         }
     }
 
-    // Lógica para "pull-to-refresh".
+    // Lógica para "pull-to-refresh" que só funciona no celular e eu NÃO testei pq eu NÃO quero mexer no meu celular pra isso.
     private async void lst_produtos_Refreshing(object sender, EventArgs e)
     {
         lst_produtos.IsRefreshing = true;
